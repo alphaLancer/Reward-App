@@ -1,0 +1,63 @@
+.reward-calculator {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Styles for table headers */
+  th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styles for table cells */
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Styles for alternating table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for Customer ID column */
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Styles for Reward Points column */
+  td:last-child {
+    font-weight: bold;
+    color: #007bff; /* Blue color for reward points */
+  }
+  
+  /* Responsive table styles for small screens */
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th,
+    td {
+      padding: 8px;
+    }
+  
+    td:first-child {
+      font-size: 16px;
+    }
+  }
+  
